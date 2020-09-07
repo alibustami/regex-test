@@ -1,0 +1,3 @@
+import re
+phoneRegex = re.compile(r'((\d\d\d)?-\d\d\d-\d\d\d\d){3}')
+print(phoneregex.search('Call me at 888-789-7894 or 987-456-7777 or 411-555-7891 or 789-852-7411'))
